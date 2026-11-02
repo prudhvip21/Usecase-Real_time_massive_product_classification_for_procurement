@@ -1,0 +1,13 @@
+# Data files
+data/*
+!data/*.ipynb
+*.xlsx
+*.xls
+*.csv
+annotations*.json
+
+# Contains an API key
+src/open-ai_embeddings.ipynb
+src/.ipynb_checkpoints/open-ai_embeddings-checkpoint.ipynb
+
+.env
